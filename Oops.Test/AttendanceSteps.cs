@@ -6,20 +6,20 @@ namespace Oops.Test
     [Binding]
     public class AttendanceSteps
     {
-        [Given(@"I have a person with Id as ""(.*)""")]
-        public void GivenIHaveAPersonWithIdAs(int p0)
+        [Given(@"I have a student with Id as ""(.*)""")]
+        public void GivenIHaveAStudentWithIdAs(int p0)
         {
             ScenarioContext.Current.Pending();
         }
         
-        [When(@"When I mark the person as present for ""(.*)""")]
-        public void WhenWhenIMarkThePersonAsPresentFor(string p0)
+        [When(@"When I mark the student as present for ""(.*)""")]
+        public void WhenWhenIMarkTheStudentAsPresentFor(string p0)
         {
             ScenarioContext.Current.Pending();
         }
         
-        [Then(@"the attendance for the person for the day should be ""(.*)""")]
-        public void ThenTheAttendanceForThePersonForTheDayShouldBe(string p0)
+        [Then(@"the attendance for the student for the day should be ""(.*)""")]
+        public void ThenTheAttendanceForTheStudentForTheDayShouldBe(string p0)
         {
             ScenarioContext.Current.Pending();
         }

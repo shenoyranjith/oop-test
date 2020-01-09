@@ -1,0 +1,18 @@
+Problem - 
+	You are developing an application to track the attendance of the staff and students of an institution. Every "person" has his/her attendance marked as
+	09/01/2020 - true
+	10/01/2020 - false
+	For your reference a Person class has been defined along with an IPersonService interface. A scenario for your BDD has also been added.
+	Your task, should you choose to accept it (you have no choice actually :D), is to solve the following question and implement it in the application. 
+	
+Questions - 
+1. Create your model/ entity classes for students and teachers. 
+   Every teacher has an additional property called "StaffId". Every student should have a "Marks" property that stores marks for each subject.
+
+2. Implement the IPersonService and define the methods declared in the interface.
+
+3. Implement the scenario using your service and get the test to pass.
+
+4. Now add a 5 sample students and get the output for the following
+	a. Display the attendance of a single student.
+	b. Display all the marks that he has scored.
