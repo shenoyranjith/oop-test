@@ -5,7 +5,7 @@ namespace Oops.Services
 {
     public interface IPersonService
     {
-        void MarkAttendance(bool present);
+        void MarkAttendance(Person person, Attendance attendance);
 
         List<Attendance> GetAttendance(int id);
     }
